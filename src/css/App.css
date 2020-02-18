@@ -1,0 +1,43 @@
+/*Global Var*/
+:root {
+  --theme-color: #007aff;
+  --shadow-color: #1890ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #232530 !important;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  font-feature-settings: "tnum";
+  color: #fff !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* ------ Title ------ */
+.title {
+  background: url(../images/bgimage.png) center center;
+  width: 100%;
+  object-fit: contain;
+  background-size: cover;
+  padding: 2rem;
+  opacity: 0.9;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page Not Found   */
+
+/* ------ Account ----- */
